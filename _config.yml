@@ -1,0 +1,45 @@
+title: "MW 学习知识库"
+description: "AI 驱动的个人学习追踪 · More Wit, More Win"
+baseurl: "/mw-learning"
+url: "https://zhoug.github.io"
+author: zhoug
+lang: zh-CN
+
+# Jekyll theme
+theme: minima
+
+# GitHub Pages / Jekyll settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Build settings
+permalink: /:title/
+show_excerpts: true
+
+# Collections for organized content
+collections:
+  shoucang:
+    title: 收藏
+    output: true
+  chuangzuo:
+    title: 创作
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      author: zhoug
+
+# Head custom
+header_pages:
+  - shenghuo/index.md
+  - xuexi/index.md
+  - zhichang/index.md
+  - chuangzuo/index.md
+  - gongju/index.md
+  - agent/index.md

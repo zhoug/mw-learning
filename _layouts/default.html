@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "zh-CN" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title != "首页" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  {% seo %}
+  {% feed_meta %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {%- if jekyll.environment == 'production' -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
+<body>
+
+  {% include navigation.html %}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {% include breadcrumb.html %}
+      {{ content }}
+    </div>
+  </main>
+
+  {% include footer.html %}
+
+</body>
+</html>

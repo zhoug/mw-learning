@@ -1,0 +1,13 @@
+{% if page.parent %}
+<div class="breadcrumb">
+  <a href="{{ '/' | relative_url }}">首页</a>
+  <span>›</span>
+  {% if page.parent_url %}
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% else %}
+    <span>{{ page.parent }}</span>
+  {% endif %}
+  <span>›</span>
+  <span>{{ page.title }}</span>
+</div>
+{% endif %}
