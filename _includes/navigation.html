@@ -1,11 +1,13 @@
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="{{ "/" | relative_url }}">📚 {{ site.title }}</a>
+    <a class="site-title" href="{{ "/" | relative_url }}">知 庚</a>
     <nav class="site-nav">
       {% assign nav_pages = site.pages | sort: "order" %}
       {% for nav_page in nav_pages %}
         {% if nav_page.order and nav_page.title != "首页" %}
-          <a class="page-link{% if page.url == nav_page.url or page.url contains nav_page.url %} active{% endif %}" href="{{ nav_page.url | relative_url }}">
+          {% assign nav_url = nav_page.url | remove: "index.html" %}
+          {% assign current_url = page.url | remove: "index.html" %}
+          <a class="page-link{% if current_url contains nav_url %} active{% endif %}" href="{{ nav_page.url | relative_url }}">
             {{ nav_page.title }}
           </a>
         {% endif %}

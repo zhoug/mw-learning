@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "zh-CN" }}">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title != "首页" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page.title != "首页" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description }}">
   {% seo %}
   {% feed_meta %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  {%- if jekyll.environment == 'production' -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
 </head>
 <body>
 
