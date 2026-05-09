@@ -7,10 +7,11 @@ tags: [收藏, 党建, 组织生活]
 source: 石景山组工
 source_url: https://mp.weixin.qq.com/s/Q8gP8qjklqd4vg8MKIDayg
 image: /assets/images/2026-05-zuzhi-shenghuo.png
+excerpt: "石景山组工发布的2026年5月组织生活提示，包含组织生活安排、理论学习重点、实践活动指导及工作要求。"
 ---
 
-> **来源**：石景山组工  
-> **原文链接**：[点击阅读](https://mp.weixin.qq.com/s/Q8gP8qjklqd4vg8MKIDayg)
+**来源**：石景山组工  
+**原文链接**：[点击阅读](https://mp.weixin.qq.com/s/Q8gP8qjklqd4vg8MKIDayg)
 
 ---
 
@@ -18,7 +19,7 @@ image: /assets/images/2026-05-zuzhi-shenghuo.png
 
 以下为微信公众号原文完整截图：
 
-![2026年5月组织生活提示](/assets/images/2026-05-zuzhi-shenghuo.png)
+![2026年5月组织生活提示]({{ '/assets/images/2026-05-zuzhi-shenghuo.png' | relative_url }})
 
 ---
 
