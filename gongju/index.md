@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: 工具库
 permalink: /gongju/
@@ -9,9 +9,9 @@ order: 5
 
 ## 分类
 
-- [AI工具](./ai) — AI 工具推荐
+- [AI 工具](./ai) — AI 知识库与工具推荐
 - [效率工具](./xiaolv) — 提效工具
 
 ---
 
-暂无内容。
+暂无更多内容。
