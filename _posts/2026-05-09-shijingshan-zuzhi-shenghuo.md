@@ -2,7 +2,7 @@
 layout: post
 title: "2026年5月组织生活提示"
 date: 2026-05-09 09:50:00 +0800
-category: 生活
+category: 工作
 tags: [收藏, 党建]
 source: 石景山组工
 source_url: https://mp.weixin.qq.com/s/Q8gP8qjklqd4vg8MKIDayg
